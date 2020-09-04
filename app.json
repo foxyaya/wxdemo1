@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/photo/photo",
+    "pages/home/home",
+    "pages/search/search",
+    "pages/person/person",
+    "pages/logs/logs",
+    "pages/test/test"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "BangBang",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icon/_home.png",
+      "selectedIconPath": "icon/_home.png"
+    },
+    {
+      "pagePath": "pages/photo/photo",
+      "text": "图片",
+      "iconPath": "icon/photo.png",
+      "selectedIconPath": "icon/photo.png"
+    },
+    {
+      "pagePath": "pages/person/person",
+      "text": "个人",
+      "iconPath": "icon/person.png",
+      "selectedIconPath": "icon/person.png"
+    },
+    {
+      "pagePath": "pages/search/search",
+      "text": "搜索",
+      "iconPath": "icon/search.png",
+      "selectedIconPath": "icon/search.png"
+    }
+  ],
+  "color":"#0094ff",
+  "selectedColor":"#ff9400"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

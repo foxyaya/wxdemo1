@@ -1,0 +1,39 @@
+<!--pages/person/person.wxml-->
+<!-- <text>pages/person/person.wxml</text>
+
+// 模拟数据加减
+-->
+
+<view>
+    <view>{{num}}</view>
+</view>
+
+<input type="text" bindinput="handleMake"></input>
+  
+    <button bindtap="handleMakeUpOrDown" size="50px" data-operator="{{1}}">+1</button>
+    <button bindtap="handleMakeUpOrDown" size="50px" data-operator="{{-1}}">-1</button>
+
+    <view wx:for="{{person}}"
+     wx:for-index="key" 
+     wx:for-item="value"
+     wx:key="id"
+     >
+    属性：{{key}}
+    ----
+    值：{{value}}
+    </view>
+
+
+    <view wx:for="{{list}}"
+    wx:for-index="index"
+    wx:for-item="item"
+    wx:key="id">
+    <block>
+    {{index}}
+    ————————
+    学号:{{item.id}}
+    -------
+    名字：{{item.name}}
+    </block>
+    </view>
+  

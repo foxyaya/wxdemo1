@@ -1,0 +1,47 @@
+<!--pages/photo/photo.wxml-->
+<!-- <text>pages/photo/photo.wxml</text> -->
+<view class="photo">
+<view>
+<swiper class="lunbo" autoplay="true" indicator-dots="true" interval="3000" indicator-color="#0000fe" indicator-active-color="#0096fe">
+  <swiper-item>
+    <image src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1599120972&di=5507a8accdd218c60edf2d5fbaaa3ccc&src=http://a4.att.hudong.com/27/67/01300000921826141299672233506.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1599131074865&di=8ea86e085451e7930b63b7dfe9c9bc81&imgtype=0&src=http%3A%2F%2Fa4.att.hudong.com%2F52%2F52%2F01200000169026136208529565374.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1599131074865&di=444fca40b0e731986f31e0f5b61473b1&imgtype=0&src=http%3A%2F%2Fimg1.gtimg.com%2Frushidao%2Fpics%2Fhv1%2F20%2F108%2F1744%2F113431160.jpg"></image>
+  </swiper-item>
+</swiper>
+</view>
+<view class="isDown">
+  <view class="title">
+    <text>我的课程</text>
+    <view class="title_more">
+      更多
+    </view>
+  </view>
+    <view class="content">
+      <scroll-view class="content_list" scroll-x="true">
+        <image class="list_img" src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1599120972&di=5507a8accdd218c60edf2d5fbaaa3ccc&src=http://a4.att.hudong.com/27/67/01300000921826141299672233506.jpg"></image>
+        <image class="list_img" src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1599120972&di=5507a8accdd218c60edf2d5fbaaa3ccc&src=http://a4.att.hudong.com/27/67/01300000921826141299672233506.jpg"></image>
+        <image class="list_img" src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1599120972&di=5507a8accdd218c60edf2d5fbaaa3ccc&src=http://a4.att.hudong.com/27/67/01300000921826141299672233506.jpg"></image>
+      </scroll-view>
+    </view>
+</view>
+<view class="isDown">
+  <view class="title">
+    <text>全部课程</text>
+    <view class="title_more">
+      更多
+    </view>
+  </view>
+    <view class="content">
+      <scroll-view class="content_list" scroll-x="true">
+        <image class="list_img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1599131074865&di=444fca40b0e731986f31e0f5b61473b1&imgtype=0&src=http%3A%2F%2Fimg1.gtimg.com%2Frushidao%2Fpics%2Fhv1%2F20%2F108%2F1744%2F113431160.jpg"></image>
+        <image class="list_img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1599131074865&di=444fca40b0e731986f31e0f5b61473b1&imgtype=0&src=http%3A%2F%2Fimg1.gtimg.com%2Frushidao%2Fpics%2Fhv1%2F20%2F108%2F1744%2F113431160.jpg"></image>
+        <image class="list_img" src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1599120972&di=5507a8accdd218c60edf2d5fbaaa3ccc&src=http://a4.att.hudong.com/27/67/01300000921826141299672233506.jpg"></image>
+      </scroll-view>
+    </view>
+</view>
+</view>
